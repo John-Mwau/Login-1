@@ -6,15 +6,22 @@ body{
     flex-direction:row;
 }
 .box1{
-    background-color: aliceblue;
     width:200px;
 }
+.box1 p{
+    line-height: 2;
+    font-size: 25px;
+    color: whitesmoke;
+}
 .box2{
-    background-color:aliceblue;
     width: 400px;
     height: 300px;
     position: absolute;
     left: 20%;
+}
+.box2 p{
+    line-height: 2;
+    font-size: 18px;
 }
 .box3{
     background-color: whitesmoke;
@@ -60,9 +67,24 @@ body{
 span{
  color: red;
 }
-@media(max-width:600px){
+@media(min-width:600px){
     .flexbox{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+    }
+}
+@media(min-width:600px){
+    .box1{
+        display: inline-block;
+    }
+}
+@media(min-width:600px){
+    .box2{
+        display:inline-block;
+    }
+}
+@media(min-width:600px){
+    .box3{
+        display: inline-block;
     }
 }
