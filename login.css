@@ -63,6 +63,6 @@ span{
 @media(max-width:600px){
     .flexbox{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 }
