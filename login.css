@@ -70,6 +70,7 @@ span{
 @media screen and (max-width: 700px){
     body{
         background-color: green;
+        position: fixed;
     }
     .flexbox{
         display: block;
@@ -79,13 +80,10 @@ span{
         position: absolute;
         left: 50%;
     }
-    .box1 p{
-        font-size: 15px;
-    }
     .box2{
         width: fit-content;
         position: absolute;
-        top:20%;
+        top:10%;
         left:3%;
     }
     .box3{
