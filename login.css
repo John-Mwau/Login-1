@@ -75,16 +75,13 @@ span{
         display: block;
     }
     .box1{
+        display:block;
         position: absolute;
-        left:30%;
-        top: 0%;
     }
     .box2{
         display:block;
         position: absolute;
-        left: 0%;
         width: fit-content;
-        top: 10%;
     }
     .box3{
         display: block;
@@ -92,7 +89,5 @@ span{
         height: 600px;
         width:400px;
         position:absolute;
-        left:0%;
-        top:50%;
     }
 }
