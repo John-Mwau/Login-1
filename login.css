@@ -67,27 +67,35 @@ body{
 span{
  color: red;
 }
-@media screen and (max-width:700px){
+@media screen and (max-width: 700px){
     body{
-        background-color: rgb(255,114,118);
+        background-color: green;
     }
     .flexbox{
         display: block;
     }
     .box1{
-        display:block;
+        width:300px;
         position: absolute;
+        left: 50%;
+        top:-10%;
+    }
+    .box1 p{
+        font-size: 2em;
+        line-height: 1.5;
     }
     .box2{
-        display:block;
+        width: 100%;
         position: absolute;
-        width: fit-content;
+        top:30%;
+        left:3%;
     }
     .box3{
-        display: block;
         background-color: whitesmoke;
         height: 600px;
         width:400px;
-        position:absolute;
+        position: absolute;
+        left:0%;
+        top:80%;
     }
 }
