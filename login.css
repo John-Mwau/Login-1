@@ -71,20 +71,14 @@ span{
     body{
         background-color: rgb(255,114,118);
     }
-}
-@media screen and (max-width:700px){
     .flexbox{
         display: block;
     }
-}
-@media screen and (max-width:700px){
     .box1{
         position: absolute;
         left:30%;
         top: 0%;
     }
-}
-@media screen and (max-width: 700px){
     .box2{
         display:block;
         position: absolute;
@@ -93,8 +87,6 @@ span{
         top: 40%;
         height:100px;
     }
-}
-@media screen and (max-width:700px){
     .box3{
         display: block;
         background-color: whitesmoke;
