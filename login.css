@@ -80,8 +80,7 @@ span{
         left: 50%;
     }
     .box1 p{
-        font-size: 1em;
-        line-height: 1.5;
+        font-size: 15px;
     }
     .box2{
         width: fit-content;
