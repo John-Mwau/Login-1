@@ -81,7 +81,7 @@ span{
     .box1{
         position: absolute;
         left:30%;
-        top: -5%;
+        top: 2%;
     }
 }
 @media screen and (max-width: 700px){
@@ -89,7 +89,7 @@ span{
         position: absolute;
         left: 0%;
         width: fit-content;
-        top: -20%;
+        top: 10%;
     }
 }
 @media screen and (max-width:700px){
@@ -97,9 +97,9 @@ span{
         display: block;
         background-color: whitesmoke;
         height: 600px;
-        width:300px;
+        width:400px;
         position:static;
         left:2%;
-        top:-20%;
+        top:30%;
     }
 }
