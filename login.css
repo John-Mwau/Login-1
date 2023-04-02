@@ -76,26 +76,37 @@ span{
         display: block;
     }
     .box1{
-        width:300px;
-        position: absolute;
-        left: 50%;
-        background-color:brown;
-
+        width:250px;
+        background-color: red;
+        position: relative;
+        left: 150px;
+        top: -10px;
+        
+    }
+    .box1 p{
+        padding-left: 5px;
+        text-align: center;
     }
     .box2{
-        width: fit-content;
-        position: absolute;
-        top:20%;
-        left:3%; 
-        background-color: blue; 
+        background-color: rgb(255, 0, 38);
+        width: 500px;
+        position: relative;
+        left: 0%;
+        height: 150px;
+        margin-top: -20px;
     }
-    .box3{
+    .box2 p{
+        padding: 10px 10px 5px 10px;
+        text-align: center;
+
+    }
+    .box3 {
+        display: block;
         background-color: whitesmoke;
         height: 600px;
         width:400px;
-        position: absolute;
-        left:0%;
-        top:50%;
-        background-color:blue;
+        position: relative;
+        left: 50px;
+        top: 5px;
     }
 }
