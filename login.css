@@ -88,10 +88,10 @@ span{
     }
     .box2{
         width: 500px;
-        position: relative;
         height: 150px;
+        position: relative;
         margin-top: -25px;
-        left: -20px;
+        left: 10px;
     }
     .box3 {
         background-color: whitesmoke;
