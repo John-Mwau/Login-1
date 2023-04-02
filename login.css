@@ -91,14 +91,14 @@ span{
         position: relative;
         height: 150px;
         margin-top: -25px;
-        left: 0px;
+        left: -100px;
     }
     .box3 {
         background-color: whitesmoke;
         height: 600px;
         width:400px;
         position: relative;
-        left: 0px;
+        left: -100px;
         margin-top: -20px;
     }
 }
