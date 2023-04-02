@@ -70,11 +70,10 @@ span{
 @media screen and (max-width: 700px){
     body{
         background-color: rgb(255,114,118);
-        position: static;
     }
     .flexbox{
         display: block;
-        position: static;
+        position: sticky;
     }
     .box1{
         width:250px;
@@ -92,18 +91,14 @@ span{
         position: relative;
         height: 150px;
         margin-top: -25px;
-    }
-    .box2 p{
-        padding: 10px 10px 5px 10px;
-        text-align: center;
-
+        left: 0px;
     }
     .box3 {
-        display: block;
         background-color: whitesmoke;
         height: 600px;
         width:400px;
         position: relative;
-        top: 3px;
+        left: 0px;
+        margin-top: -20px;
     }
 }
