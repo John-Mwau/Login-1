@@ -73,11 +73,12 @@ span{
     }
     .flexbox{
         display: block;
+        position: absolute;
     }
     .box1{
         width:250px;
         position: relative;
-        left: 50px;
+        left: 10px;
         top: -10px;
         
     }
@@ -88,7 +89,6 @@ span{
     .box2{
         width: 500px;
         position: relative;
-        left: 0%;
         height: 150px;
         margin-top: -25px;
     }
@@ -103,7 +103,6 @@ span{
         height: 600px;
         width:400px;
         position: relative;
-        left: 5px;
         top: 3px;
     }
 }
