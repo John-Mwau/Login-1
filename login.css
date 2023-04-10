@@ -122,7 +122,7 @@ font-size: 30px;
     padding-top: 30px;
     padding-bottom: 20px;
 }
- @media screen and (max-width:360px){ 
+ @media screen and (min-width:360px) and (max-width:414px){ 
     body{
         background-size: cover;
         background-color: wheat;
@@ -131,28 +131,64 @@ font-size: 30px;
     .cover{
         display: flex;
         flex-direction: row-reverse;
-        height: 50px;
+        width: 360px;
     }
-   
+    .cover-item1{
+        width:300px;
+    }
+    .cover-item1 h1{
+        padding-top: 10px;
+        font-size: 18px;
+        margin-left: -20px;
+        }
+        .img{
+            clip-path: circle();
+            height: 50px;
+            margin-left: -20px;
+        }
     .flexbox{
         display: flex;
         flex-direction: column;
-        background-size: cover;
+        width: 360px;
         margin-top: 15px;
-        backface-visibility: 0.5;
+        
     }
     .wraper-1{
         width: 360px;
         display: inline-block;
         align-items: center;
-        padding-top: 15px;
-        border: none;
-        margin-right: 70px;
-        margin-left: 10px;
+        padding-top: 5px;
+        background-color: red;
+        margin-right: 10px;
+    }
+    .item1{
+        width: 300px;
+        background-color: aqua;
+        margin-left: -90px;
+      }
+      .item1 H2{
+        font-weight: bolder;
+        color: black;
+        text-align: center;
 
+      }
+    .wraper-2{
+        width:360px;
+        margin-top: 8px; 
+        margin-bottom: 8px;
+        background-color: greenyellow;
+    }
+    .table th{
+        width: 350px;
+        background: rgb(64, 128, 0);
+        height: 20px;
+        font-size: 20px;
+        border-radius:15px;
+        padding-top:5px;
+        padding-bottom: 5px;
     }
     .form input{
-        width:350px;
+        width: 350px;
         height:35px;
         margin-bottom: 10px;
         margin-top:10px;
