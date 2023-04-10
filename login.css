@@ -134,13 +134,13 @@ font-size: 30px;
     }
     .cover-item1{
         width:300px;
+        margin-left: -20px;
     }
     .cover-item1 h1{
         padding-top: 10px;
         font-size: 18px;
-        margin-left: -20px;
-        }
-        .img{
+    }
+    .img{
             clip-path: circle();
             height: 50px;
             margin-left: -20px;
@@ -149,33 +149,30 @@ font-size: 30px;
         display: flex;
         flex-direction: column;
         width: 360px;
-        margin-top: 15px;
-        
+        margin-top: 15px;   
     }
     .wraper-1{
         width: 360px;
         display: inline-block;
         align-items: center;
         padding-top: 5px;
-        background-color: red;
         margin-right: 10px;
     }
     .item1{
         width: 300px;
-        background-color: aqua;
-        margin-left: -90px;
+        margin-left: -100px;
       }
       .item1 H2{
         font-weight: bolder;
         color: black;
         text-align: center;
+        magin-left: -20px;
 
       }
     .wraper-2{
         width:360px;
-        margin-top: 8px; 
-        margin-bottom: 8px;
-        background-color: greenyellow;
+        margin-top: 10px; 
+        margin-bottom: 10px;
     }
     .table th{
         width: 350px;
@@ -185,6 +182,10 @@ font-size: 30px;
         border-radius:15px;
         padding-top:5px;
         padding-bottom: 5px;
+    }
+    ..form{
+        width: 350px;
+        height: 250px;
     }
     .form input{
         width: 350px;
