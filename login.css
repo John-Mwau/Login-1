@@ -178,6 +178,10 @@ font-size: 30px;
         margin-top: 10px; 
         margin-bottom: 10px;
     }
+    .table table{
+        padding-top: 15px;
+        margin-left: 20px;
+    }
     .table th{
         width: 320px;
         background: rgb(64, 128, 0);
