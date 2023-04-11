@@ -131,6 +131,7 @@ font-size: 30px;
         display: flex;
         flex-direction: row-reverse;
         width: 360px;
+        background-color: whitesmoke;
     }
     .cover-item1{
         width:300px;
@@ -170,7 +171,6 @@ font-size: 30px;
         font-weight: bolder;
         color: black;
         text-align: center;
-        magin-left: -20px;
 
       }
     .wraper-2{
@@ -201,5 +201,12 @@ font-size: 30px;
     .p2 p{
         color: black;
         font-size: 1.1em;
+    }
+    .white{
+        justify-content: center;
+        align-items: center;
+    }
+    .white p{
+        text-align: center;
     }
 }
