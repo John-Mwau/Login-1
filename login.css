@@ -30,7 +30,7 @@ font-size: 30px;
     flex-direction: row;
     background-size: cover;
     margin-top: 15px;
-    background-image: url('../login-1/images/Bg1.jpg');
+    background-image: url('images/Bg1.jpg');
     backface-visibility: 0.5;
 }
 .wraper-1{
@@ -68,7 +68,7 @@ font-size: 30px;
     color: black;
 }
 .wraper-2{
-    background-image: url('../login-1/images/Bg13.jpg');
+    background-image: url('images/Bg13.jpg');
     background-size: cover;
     width:450px;
     margin-top: 8px; 
@@ -155,6 +155,7 @@ font-size: 30px;
         margin-top: 15px;  
         align-items: center; 
         justify-content: center;
+        background-image: url('images/Bg1.jpg');
         
     }
     .wraper-1{
@@ -178,6 +179,7 @@ font-size: 30px;
         width:360px;
         margin-top: 10px; 
         margin-bottom: 10px;
+        background-image: url('images/Bg13.jpg');
     }
     .table table{
         padding-top: 15px;
