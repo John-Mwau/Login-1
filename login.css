@@ -131,7 +131,7 @@ font-size: 30px;
         display: flex;
         flex-direction: row-reverse;
         width: 360px;
-        background-color: whitesmoke;
+        background-color: grey;
     }
     .cover-item1{
         width:300px;
@@ -145,6 +145,7 @@ font-size: 30px;
     }
     .img img{
             clip-path: circle();
+            width: 200px;
             height: 50px;
             margin-left: -20px;
         }
