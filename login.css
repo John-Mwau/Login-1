@@ -147,7 +147,6 @@ font-size: 30px;
             clip-path: circle();
             width: 200px;
             height: 50px;
-            margin-left: -20px;
         }
     .flexbox{
         display: flex;
